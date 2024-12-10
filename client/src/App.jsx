@@ -40,6 +40,9 @@ function App() {
     return (
       <div className="flex justify-center items-center h-screen bg-white">
         <ClipLoader color="#007bff" size={50} /> {/* Spinner Component */}
+        <p className="text-center text-sm">
+          Loading...please wait...
+        </p>
       </div>
     );
   }
